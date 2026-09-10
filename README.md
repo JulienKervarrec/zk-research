@@ -30,6 +30,10 @@ Statut à la publication, le 10 septembre 2026 : **ouverte, non fusionnée**. Le
 
 Ce tableau décrit ces implémentations, pas toutes les constructions STARK ou SNARK. Les paramètres et hypothèses de chaque protocole doivent être lus dans ses sources.
 
+## Hyperliquid et HyperEVM
+
+Le [parcours HyperEVM–HyperCore](https://github.com/JulienKervarrec/hyper-evm-lib/tree/main/docs/fr) suit CoreWriter, les précompiles, les conversions de montants et les ponts d’actifs. Sa checklist distingue identité du contrat, troncature décimale, émission asynchrone et observation de l’état. Il s’agit d’une lecture documentée de `hyper-evm-lib`, sans affiliation ni audit revendiqué.
+
 ## Où intervient un zk-rollup ?
 
 Une preuve de calcul est une brique, pas un rollup complet. Pour étudier une architecture, suivre séparément :

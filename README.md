@@ -1,6 +1,6 @@
 ## Parcours français
 
-[Nouvelles fiches pratiques STARK et Base](docs/fr/README.md) : relier les rejets Winterfell aux contrôles du vérificateur et identifier les préconditions des retraits Base, y compris un écart de nom de paramètre dans la documentation. Lecture statique, sans exécution.
+[Nouvelles fiches pratiques STARK et Base](docs/fr/README.md) : relier les rejets Winterfell aux contrôles du vérificateur et identifier les préconditions des retraits Base, avec les paramètres de réseau personnalisé et les précautions de version. Lecture statique, sans exécution.
 
 # ZK Research — STARK, SNARK & rollups
 

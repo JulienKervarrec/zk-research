@@ -4,17 +4,17 @@ Cette fiche décrit le programme `base/withdrawer`, pas une garantie sur l’ét
 
 ## Avant les étapes onchain
 
-Le [code main.go](https://github.com/base/withdrawer/blob/main/main.go) fournit les contrôles suivants :
+Le [code main.go](https://github.com/base/withdrawer/blob/d7364c7c14cec27e17c7b5751b7f7b7a749c62c3/main.go) fournit les contrôles suivants :
 
 | Élément | Règle dans le code lu |
 | --- | --- |
 | Réseau prédéfini | Les quatre entrées Base/OP exigent `--fault-proofs`. |
 | RPC | `--rpc` désigne L1 ; `--l2-rpc` désigne L2. |
-| Personnalisation avec fault proofs | Fournir ensemble `--l2-rpc`, `--portal-address`, `--dgf-address`. |
+| Personnalisation avec fault proofs | Fournir ensemble `--l2-rpc`, `--portal-address`, `--dgf-address` et `--asr-address`. |
 | Signataire | Choisir exactement une méthode parmi clé, mnemonic ou Ledger. |
 | Frais | Ne pas combiner prix legacy et options EIP-1559 ; les deux options EIP-1559 doivent être renseignées ensemble. |
 
-**Piège documentaire :** la liste des flags du [README](https://github.com/base/withdrawer/blob/main/README.md) écrit `--dfg-address` ; le parseur enregistre `--dgf-address`. Comparer la documentation à la version précise utilisée avant de reprendre une commande.
+**Attention aux versions :** le README actuel et le parseur utilisent tous deux `--dgf-address`. Une ancienne page indexée mentionnait `--dfg-address` ; ce problème est déjà corrigé et ne constitue pas un nouveau correctif. La configuration personnalisée actuelle exige aussi `--asr-address` (AnchorStateRegistry). Les liens ci-dessous sont fixés à la révision `d7364c7c14cec27e17c7b5751b7f7b7a749c62c3`.
 
 ## Séparer les états
 

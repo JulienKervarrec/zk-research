@@ -46,6 +46,16 @@ Une preuve de calcul est une brique, pas un rollup complet. Pour étudier une ar
 
 Les deux forks ne mettent pas en œuvre cette chaîne complète. Une preuve de validité ne rend pas automatiquement toutes les données privées.
 
+## Prototypes
+
+Le dossier [`prototype/`](prototype) contient trois modèles pédagogiques en Python, sans dépendance : engagement de Merkle, tirage des requêtes FRI par Fiat-Shamir et transition d’état d’un rollup jouet. Ce ne sont pas des systèmes de preuve. Leurs limites sont écrites dans le code, par exemple la duplication du dernier nœud dans l’arbre de Merkle.
+
+```bash
+python -m unittest discover -s prototype -v
+```
+
+Les tests sont lancés par GitHub Actions à chaque push sur `main` et à chaque pull request.
+
 ## Méthode et sources
 
 Les chapitres renvoient aux fonctions lues et séparent comportement du code, limites et responsabilités de l’application. Les projets originaux restent [facebook/winterfell](https://github.com/facebook/winterfell) et [iden3/snarkjs](https://github.com/iden3/snarkjs). Le code amont et ses licences sont conservés dans les forks.

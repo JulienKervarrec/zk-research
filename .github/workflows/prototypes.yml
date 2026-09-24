@@ -1,0 +1,25 @@
+name: prototypes
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Unit tests
+        run: python -m unittest discover -s prototype -v
+      - name: Demos
+        run: |
+          for f in prototype/fri_query_transcript.py prototype/merkle_commitment.py prototype/rollup_state_transition.py; do
+            python "$f"
+          done

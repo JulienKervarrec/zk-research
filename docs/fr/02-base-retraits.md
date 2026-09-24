@@ -28,4 +28,4 @@ Noter version, réseau, hash de transaction L2, adresses de contrats, adresse pu
 
 Le [parcours existant](https://github.com/JulienKervarrec/withdrawer/tree/main/docs/fr) développe les mécanismes. Aucune nouvelle installation, compilation ou exécution de tests ; consulter les sources amont pour les vérifications ultérieures.
 
-Retour au [sommaire](README.md).
+Suite : [STARK et SNARK](03-comparaison-stark-snark.md) · [Sommaire](README.md).

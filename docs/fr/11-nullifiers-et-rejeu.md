@@ -1,3 +1,5 @@
-## Nullifiers et rejeu
+# 11. Nullifiers et rejeu
 
-Les nullifiers empechent quune meme autorisation ou preuve soit acceptee plusieurs fois dans certains protocoles. Leur unicite, leur stockage et leur domaine doivent etre documentes ensemble.
+Les nullifiers empêchent qu’une même autorisation ou preuve soit acceptée plusieurs fois dans certains protocoles. Leur unicité, leur stockage et leur domaine doivent être documentés ensemble.
+
+Suite : [Paramètres de sécurité](12-parametres-securite.md) · [Sommaire](README.md).

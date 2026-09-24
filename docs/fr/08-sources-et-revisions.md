@@ -1,3 +1,5 @@
-## Sources et revisions
+# 8. Sources et révisions
 
-Une fiche ZK doit identifier la revision du depot, les fichiers lus et les hypotheses retenues. Cette traçabilite separe le texte pedagogique de la specification amont. Elle facilite une relecture ulterieure lorsque le code evolue.
+Une fiche ZK doit identifier la révision du dépôt, les fichiers lus et les hypothèses retenues. Cette traçabilité sépare le texte pédagogique de la spécification amont. Elle facilite une relecture ultérieure lorsque le code évolue.
+
+Suite : [Cycle d’une preuve](09-cycle-preuve.md) · [Sommaire](README.md).

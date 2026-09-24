@@ -1,3 +1,5 @@
-## Checklist de revue ZK
+# 17. Checklist de revue ZK
 
-Verifier le circuit, les donnees publiques, le temoin, les parametres, les artefacts et linterface du verifier. Documenter ensuite les limites et les points non executes.
+Vérifier le circuit, les données publiques, le témoin, les paramètres, les artefacts et l’interface du verifier. Documenter ensuite les limites et les points non exécutés.
+
+Fin du parcours. Retour au [sommaire](README.md).

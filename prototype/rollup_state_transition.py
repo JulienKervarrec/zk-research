@@ -13,6 +13,11 @@ def digest(*parts: str) -> str:
 def apply(state_root: str, sender: str, recipient: str, amount: int, nonce: int) -> str:
     if amount < 0 or nonce < 0:
         raise ValueError("amount and nonce must be non-negative")
+    # digest() joins its parts with "|", so a "|" inside a field would make the
+    # encoding ambiguous: ("alice|bob", "carol") and ("alice", "bob|carol")
+    # would hash to the same root.
+    if "|" in sender or "|" in recipient:
+        raise ValueError("sender and recipient must not contain '|'")
     return digest("state-v1", state_root, sender, recipient, str(amount), str(nonce))
 
 

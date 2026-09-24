@@ -2,6 +2,10 @@
 """Minimal Merkle commitment prototype for ZK/STARK learning.
 
 This models commitment, opening, and verification only; it is not a production proof system.
+
+Caveat: an odd level duplicates its last node, so [a, b, c] and [a, b, c, c]
+have the same root (the pattern behind CVE-2012-2459 in Bitcoin). A real
+commitment must also bind the number of leaves, or pad in an unambiguous way.
 """
 from hashlib import sha256
 

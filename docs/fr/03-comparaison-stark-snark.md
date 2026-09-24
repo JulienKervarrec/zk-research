@@ -1,5 +1,5 @@
-## STARK et SNARK
+# 3. STARK et SNARK
 
-Ce chapitre compare les compromis presentes dans le depot entre preuves transparentes, taille des artefacts et cout de verification. La comparaison distingue les hypotheses cryptographiques, la generation et lintegration applicative. Elle sert de grille de lecture pour les exemples de recherche.
+Ce chapitre compare les compromis présentés dans le dépôt entre preuves transparentes, taille des artefacts et coût de vérification. La comparaison distingue les hypothèses cryptographiques, la génération et l’intégration applicative. Elle sert de grille de lecture pour les exemples de recherche.
 
-[Suite : engagements](04-engagements.md)
+Suite : [Engagements et données](04-engagements.md) · [Sommaire](README.md).

@@ -1,5 +1,5 @@
-## Engagements et donnees
+# 4. Engagements et données
 
-Les engagements permettent de lier une preuve a un calcul sans exposer toute la trace. Ce chapitre explique le role des commitments, des ouvertures et des donnees publiques dans les notes du depot.
+Les engagements permettent de lier une preuve à un calcul sans exposer toute la trace. Ce chapitre explique le rôle des commitments, des ouvertures et des données publiques dans les notes du dépôt.
 
-[Suite : composition](05-composition-preuves.md)
+Suite : [Composer des preuves](05-composition-preuves.md) · [Sommaire](README.md).

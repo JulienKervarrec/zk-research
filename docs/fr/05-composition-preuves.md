@@ -1,5 +1,5 @@
-## Composer des preuves
+# 5. Composer des preuves
 
-La composition rapproche plusieurs preuves ou plusieurs etapes dun calcul dans un meme raisonnement de verification. Ce chapitre presente les benefices et les couts de cette approche. La composition ne remplace pas la verification des interfaces entre etapes.
+La composition rapproche plusieurs preuves ou plusieurs étapes d’un calcul dans un même raisonnement de vérification. Ce chapitre présente les bénéfices et les coûts de cette approche. La composition ne remplace pas la vérification des interfaces entre étapes.
 
-[Suite : limites](06-limites-recherche.md)
+Suite : [Limites de la recherche](06-limites-recherche.md) · [Sommaire](README.md).
